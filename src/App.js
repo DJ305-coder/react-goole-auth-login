@@ -36,10 +36,7 @@ function App() {
         onSuccess={onSuccess}
         onFailure={onFailure}
       />
-      <GoogleLogout
-        clientId='176788460466-n9i9tp8jqfu79bjeprvbirfhqsrt90e5.apps.googleusercontent.com'
-        onLogoutSuccess={onLogoutSuccess}
-      />
+     
     </div>
   );
 }
